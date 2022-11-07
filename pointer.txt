@@ -1,0 +1,29 @@
+Pointer :- variable that store address of annother variable.
+Syntax:-    datatype* Identifer;
+Ex.         int* a; / int *a;
+Types :-  Typed Pointer and  Untyped Pointer
+Typed - Typed to specific point of data.    Ex.  int* -> int data , double* -> double data
+Untyped - Pointer to any datatype.          Ex - (Generic pointer) void* -> Any data
+&  -> It returns address of parrticular varible.
+*  -> It returns the value inside the specific address.
+
+LIST OF POINTERS:-
+1.) Generic Pointer / Void Pointer
+2.) Null Pointer
+3.) Dangling Pointer
+4.) Wild Pointer
+5.) Complex Pointer
+// used earlier
+6.) Near Pointer
+7.) far Pointer
+8.) Huge Pointer
+
+int i=100;
+int *ptr;
+ptr = &i;
+printf("%d", i);        // value =100
+printf("%d", ptr);      // memory location
+printf("%d", &i);       // location
+printf("%d", &ptr);     // location
+printf("%d", *);        // value
+printf("%d", *(&i));    // value
